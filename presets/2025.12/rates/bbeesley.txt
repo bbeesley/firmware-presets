@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 2025.12
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: bill beesley
+#$ KEYWORDS: bbeesley
 #$ AUTHOR: Bill Beesley
 #$ PARSER: MARKED
 #$ DESCRIPTION: My personal rates
@@ -20,3 +20,13 @@ set yaw_expo = 60
 set roll_srate = 70
 set pitch_srate = 70
 set yaw_srate = 70
+
+set crashflip_motor_percent = 100
+set crashflip_rate = 60
+set crashflip_auto_rearm = ON
+
+set crash_dthreshold = 80
+set crash_gthreshold = 600
+set crash_setpoint_threshold = 500
+set crash_recovery_rate = 200
+set crash_recovery = ON
